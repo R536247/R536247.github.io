@@ -1,0 +1,348 @@
+
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+
+}
+.menucontainer{
+    padding: 0px;
+    display: flex;
+    position: center;
+}
+.menucontainer ul{
+    flex: 1;
+    text-align: center;
+}
+.menucontainer ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.menucontainer ul li a{
+    color: black; 
+    text-decoration: none;
+   
+}
+.menucontainer ul li a:hover{
+    background-color: gray;
+    transition: 1s;
+    padding: 7px;
+    border-radius: 50px;
+
+}
+.menucontainer a button{
+    margin-left: 140px;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color:hsl(28, 8%, 32%);
+    color: white;
+}
+
+.menucontainer h2{
+margin-left: 0px;
+margin-top: 40px;
+color: black;
+text-decoration: none;
+}
+.menucontainer h2:hover{
+    transition: 0,5s;
+    border-radius: 50px;
+    color: gray;
+
+}
+.menucontainer img{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 40px;
+} 
+.innhold h3{
+    font-size: 70px;
+    text-align: center;
+}
+.innhold span{
+    color: rgb(181, 139, 212);
+}
+.innhold h4{
+font-size: 20px;
+text-align: center;
+color: gray;
+margin-top: -40px;
+}
+.innhold h4 span{
+    color: rgb(181, 139, 212);
+}
+.innhold img{
+    width: 100%;
+    padding: 0px;
+}
+.innhold p{
+    font-size: 20px;
+    position: center;
+    display: flex;
+    padding: 10px;
+}
+.about h3{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.about{
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.about P{
+text-align: center;
+font-size: 22px;
+color: black;
+padding: 20px 20px;
+}
+
+.about img{
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+.about h4{
+    text-align: center;
+    font-size: 40px;
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+footer{
+    padding: 70px 0 ;
+    background-color: rgb(48, 46, 46);
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 30px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:black;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(148, 143, 143);
+    display: block;
+    transition: all 0,3s ease;
+}
+.footer-col ul li a:hover{
+    color: darkgrey;
+    padding-left: 7px;
+
+}
+.footer-col .sosial-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: lightslategray;
+    margin: 10px 10px o;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: aqua;
+    transition: all 0,5s ease;
+
+}
+.footer-col .sosial-links a:hover{
+    color: #24262b;
+    background-color: bisque;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border:  2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000000;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.input-box input::placeholder{
+    color: #000000;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forget{
+display: flex;
+justify-content:space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+}
+.remember-forget label input{
+    accent-color: #000000;
+    margin-right: 3px;
+}
+
+.remember-forget a{
+    color: #000000;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+.wrapper .register.link{
+    font-size: 14,5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register.link p a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register.link p a:hover{
+    text-decoration: underline;
+}
+.pics img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    border: 2px solid;
+    margin: 10px;
+    margin-left: 100px;
+
+    
+}
+.pics{
+    display: flex;
+    
+
+}
+
+.pop h1{
+    text-align: center;
+}
+.pop h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.kons h6{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.kons input{
+    margin-left: 40px;
+    width: 250px;
+    height: 40px;
+    border: solid 1px;
+}
+
+.kons span input{
+    width: 50%;
+    height: 100px;
+
+}
+.kons button{
+    width: 140px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: hsl(28, 8%, 32%);
+    color: #ffffff;
+}
+
+.rad{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lob{
+    margin: auto;
+    width: 20%;
+}
+.lob h1{
+    margin-left: 35px ;
+}
+.lob li{
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
