@@ -332,6 +332,19 @@ margin: -15px 0 15px;
 }
 
 
+/* For skjermer som er bredere enn 600px (PC) */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* For skjermer som er 600px eller mindre (mobil) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
 
 
 
