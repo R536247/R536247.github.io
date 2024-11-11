@@ -6,6 +6,8 @@ body{
     background-position: center;
 
 }
+
+
 .menucontainer{
     padding: 0px;
     display: flex;
@@ -353,21 +355,71 @@ margin: -15px 0 15px;
 }
 
 
-/* For skjermer som er bredere enn 600px (PC) */
-@media (min-width: 600px) {
-    body {
-        font-size: 18px;
+
+/* Grunnleggende stil for større skjermer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Responsiv design for skjermer som er 768px eller mindre (typisk mobil) */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 10px;
     }
-}
-
-/* For skjermer som er 600px eller mindre (mobil) */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
+  
+    h1 {
+      font-size: 24px;
+      text-align: center;
     }
-}
-
-
+  
+    /* Endre navigasjonen til vertikal */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    nav a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #333;
+    }
+  }
+  
+  /* Responsiv design for ekstra små skjermer (f.eks. telefoner i vertikal modus) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    nav a {
+      font-size: 16px;
+    }
+  }
+  
 
 
 
