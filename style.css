@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color: #f4f4f4;
     margin: 0px;
     padding: 0px;
     background-size: cover;
@@ -353,8 +353,6 @@ margin: -15px 0 15px;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 
 /* Grunnleggende stil for større skjermer */
 body {
