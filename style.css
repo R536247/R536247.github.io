@@ -29,6 +29,7 @@ body{
 .menucontainer ul li a:hover{
     background-color: rgb(181, 139, 212);
     transition: 1s;
+    padding: 5px;
     border-radius: 50px;
 
 }
@@ -77,6 +78,9 @@ margin-top: -40px;
     color: rgb(181, 139, 212);
 }
 .innhold img{
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
     
 }
 .innhold p{
