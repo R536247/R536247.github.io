@@ -20,11 +20,12 @@ body{
     margin: 10px 20px;
     padding: 10px;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .menucontainer ul li a{
     color: black; 
     text-decoration: none;
-   
+    
 }
 .menucontainer ul li a:hover{
     background-color: rgb(181, 139, 212);
@@ -69,7 +70,7 @@ text-decoration: none;
     color: rgb(181, 139, 212);
 }
 .innhold h4{
-font-size: 20px;
+font-size: 22px;
 text-align: center;
 color: gray;
 margin-top: -40px;
@@ -78,15 +79,18 @@ margin-top: -40px;
     color: rgb(181, 139, 212);
 }
 .innhold img{
-    width: 50%;
-    height: 50%;
-    margin-left: 50%;
+    width: 45%;
+    height: 500px;
+    margin-left:50%;
     
 }
-.innhold p{
-    font-size: 20px;
-    text-align: center;
-    
+.innhold pre{
+    font-size:22px;
+    text-align: left;
+    margin-top: -500px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .about h3{
     text-align: center;
@@ -105,6 +109,9 @@ text-align: center;
 font-size: 22px;
 color: black;
 padding: 20px 20px;
+font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .about img{
@@ -137,7 +144,7 @@ footer{
     padding: 0 15px;
 }
 .footer-col h4{
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -157,6 +164,7 @@ footer{
     color: rgb(148, 143, 143);
     display: block;
     transition: all 0,3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .footer-col ul li a:hover{
     color: darkgrey;
@@ -275,23 +283,34 @@ margin: -15px 0 15px;
 
     
 }
+
+.hilt{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .pics{
     display: flex;
-    
-
 }
-
+.pics ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bolder img{
+    width: 100%;
+}
 .pop h1{
     text-align: center;
 }
 .pop h4{
     text-align: center;
-    font-size: larger;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .kons h6{
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .kons input{
@@ -312,7 +331,7 @@ margin: -15px 0 15px;
     margin-left: 40px;
     border-radius: 10px;
     font-size: larger;
-    background-color: hsl(28, 8%, 32%);
+    background-color: rgb(181, 139, 212);
     color: #ffffff;
 }
 
@@ -328,8 +347,9 @@ margin: -15px 0 15px;
     margin-left: 35px ;
 }
 .lob li{
-    font-size: 20px;
+    font-size: 22px;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
