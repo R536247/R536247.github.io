@@ -354,6 +354,38 @@ margin: -15px 0 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.container-2{
+ padding: 15px;
+ margin: 15px;
+ display: flex;
+}
+.albdr{
+    text-align: center;
+}
+.albdr span{
+    color: rgb(181, 139, 212);
+}
+.last img{
+    width: 55%;
+    margin-left: 15%;
+    border-radius: 70px;
+    margin-top: 20px;
+}
+.tral p{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.bzr button{
+    margin-left: 60%;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(181, 139, 212);
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: -100px;
+    
+}
+
 /* Grunnleggende stil for større skjermer */
 body {
     font-family: Arial, sans-serif;
