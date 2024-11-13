@@ -353,37 +353,66 @@ margin: -15px 0 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container-2{
- padding: 15px;
- margin: 15px;
- display: flex;
+.container-2 {
+    display: flex;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 50px;
 }
-.albdr{
+.albdr h1 {
     text-align: center;
+    font-size: 32px;
+    color: #333;
+    font-weight: 700;
+    margin: 20px 0;
 }
-.albdr span{
-    color: rgb(181, 139, 212);
+.albdr h1 span {
+    color: #9370DB;;
+}
+.last {
+    width: 450px;
 }
 .last img{
-    width: 55%;
+    max-width: 55%;
     height: auto;
-    margin-left: 15%;
-    border-radius: 70px;
-    margin-top: 20px;
+    border-radius: 50px;
+    margin-left: 150px;    
+
 }
-.tral p{
-    font-size: 25px;
-    margin-top: 100px;
+.tral {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
 }
-.bzr button{
-    margin-left: 60%;
-    width: 250px;
-    height: 50px;
-    background-color: rgb(181, 139, 212);
-    font-size: 25px;
-    border-radius: 20px;
-    margin-top: -100px;
-    
+.tral p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.tral button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #9370DB; /* Matching the purple color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.bzr {
+    text-align: center;
+    margin: 20px;
+}
+
+.bzr button:hover {
+    background-color: #7a5db7; /* Darker purple on hover */
 }
 
 /* Grunnleggende stil for større skjermer */
