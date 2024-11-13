@@ -59,10 +59,11 @@ text-decoration: none;
 
 }
 .menucontainer img{
-    width: 70px;
-    height: 70px;
+    width: 95px;
+    height: 95px;
     padding: 20px;
     border-radius: 40px;
+    padding-left: 50px;
 } 
 .innhold h3{
     font-size: 70px;
