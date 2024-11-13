@@ -4,6 +4,7 @@ body{
     padding: 0px;
     background-size: cover;
     background-position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -415,77 +416,35 @@ margin: -15px 0 15px;
     background-color: #7a5db7; /* Darker purple on hover */
 }
 
-/* Grunnleggende stil for større skjermer */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  /* Responsiv design for skjermer som er 768px eller mindre (typisk mobil) */
-  @media (max-width: 768px) {
-    .container {
-      width: 95%;
-      padding: 10px;
+@media (max-width: 600px) {
+    .menucontainer ul li {
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
     }
-  
-    h1 {
-      font-size: 24px;
-      text-align: center;
+
+    .albdr h1 {
+        font-size: 24px;
     }
-  
-    /* Endre navigasjonen til vertikal */
-    nav ul {
-      list-style-type: none;
-      padding: 0;
+
+    .container-2 {
+        flex-direction: column;
+        padding: 10px;
     }
-  
-    nav ul li {
-      display: block;
-      text-align: center;
-      margin: 10px 0;
+
+    .tral p {
+        font-size: 16px;
+        padding: 0 5px;
     }
-  
-    nav a {
-      text-decoration: none;
-      font-size: 18px;
-      color: #333;
+
+    .last img {
+        max-width: 80%;
+        border-radius: 15px;
     }
-  }
-  
-  /* Responsiv design for ekstra små skjermer (f.eks. telefoner i vertikal modus) */
-  @media (max-width: 480px) {
-    body {
-      font-size: 14px;
+
+    .bzr button {
+        font-size: 16px;
+        width: 100%;
+        max-width: 250px;
     }
-  
-    h1 {
-      font-size: 20px;
-    }
-  
-    nav a {
-      font-size: 16px;
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
+}
