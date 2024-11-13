@@ -4,7 +4,6 @@ body{
     padding: 0px;
     background-size: cover;
     background-position: center;
-
 }
 
 
@@ -82,7 +81,7 @@ margin-top: -40px;
 }
 .innhold img{
     width: 45%;
-    height: 500px;
+    height:500px;
     margin-left:50%;
     
 }
@@ -367,6 +366,7 @@ margin: -15px 0 15px;
 }
 .last img{
     width: 55%;
+    height: auto;
     margin-left: 15%;
     border-radius: 70px;
     margin-top: 20px;
