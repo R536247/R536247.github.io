@@ -31,7 +31,6 @@ body{
 }
 .menucontainer ul li a:hover{
     background-color: rgb(181, 139, 212);
-    transition: 1s;
     padding: 5px;
     border-radius: 50px;
 
@@ -117,10 +116,13 @@ font-family: sans-serif;
 
 }
 
-.about img{
-    width: 100%;
-    margin: 0;
-    border-radius: 10px;
+.about img {
+    width: 85%;  /* Reduce the width to 80% (you can adjust this value) */
+    margin: 0 auto;  /* Center the image horizontally */
+    display: block;  /* Make the image a block element (necessary for centering with margin auto) */
+    border-radius: 10px;  /* Keep the rounded corners */
+}
+
 }
 .about h4{
     text-align: center;
@@ -322,6 +324,7 @@ margin: -15px 0 15px;
     width: 250px;
     height: 40px;
     border: solid 1px;
+    border-radius: 6px;
 }
 
 .kons span input{
@@ -336,8 +339,40 @@ margin: -15px 0 15px;
     border-radius: 10px;
     font-size: larger;
     background-color: rgb(181, 139, 212);
-    color: #ffffff;
+    color: #ffffff; 
 }
+.kons button:hover {
+    background-color: rgb(181, 139, 212); /* Darker purple color */
+    transform: scale(1.03); /* Slightly increase size on hover */
+
+}
+
+.kons textarea {
+    width: 100%;
+    max-width: 600px;  /* Increased max width for a larger box */
+    height: 200px;  /* Increased height for more space */
+    padding: 10px;  /* Add padding inside the textarea */
+    font-size: 16px;  /* Font size for the text */
+    border: 2px solid #161616;  /* Light border */
+    border-radius: 8px;  /* Rounded corners */
+    resize: vertical;  /* Allow users to resize vertically */
+    box-sizing: border-box;  /* Make sure padding is included in width/height */
+    font-family: Arial, sans-serif;  /* Font family for better readability */
+    background-color: #f9f9f9;  /* Light background color */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+    margin-left: 40px;  /* Push the textarea to the right */
+}
+.kons textarea:focus {
+    border-color: rgb(16, 14, 18);  /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(181, 139, 212, 0.6);  /* Add a soft shadow effect */
+    outline: none;  /* Remove default focus outline */
+}
+
+/* Placeholder styling for textarea */  
+.kons textarea::placeholder {
+    font-size: 15px;
+}
+
 
 .rad{
     display: flex;
@@ -389,7 +424,7 @@ margin: -15px 0 15px;
 }
 .tral p {
     font-size: 18px;
-    color: #666;
+    color: #252525;
     line-height: 1.6;
     margin-top: 30px;
     margin-bottom: 15px;
