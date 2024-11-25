@@ -162,7 +162,7 @@ footer{
 }
 .footer-col h4{
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -174,7 +174,7 @@ footer{
     margin-bottom: 10px;
 }
 .footer-col ul li a{
-    font-size: 16px;
+    font-size: 20px;
     text-transform: capitalize;
     color:black;
     text-decoration: none;
@@ -316,7 +316,11 @@ margin: -15px 0 15px;
     font-family: sans-serif;
 }
 .bolder img{
-    width: 100%;
+    width: 90%; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image behaves like a block element */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 0 0 2px #d0d2d2; /* Outline effect with box-shadow */
 }
 .pop h1{
     text-align: center;
@@ -346,9 +350,17 @@ margin: -15px 0 15px;
     border-radius: 6px;
     margin-top: 2px;
 
-    
+}
+.kons input:focus {
+    border-color: rgb(181, 139, 212); /* Custom border color on focus */
+    box-shadow: 0 0 5px rgba(9, 1, 16, 0.6); /* Soft purple glow */
+
+    outline: none; /* Remove default blue outline */
+
+
 
 }
+
 
 .kons span input{
     width: 50%;
@@ -391,6 +403,7 @@ margin: -15px 0 15px;
     background-color: #f9f9f9;  /* Light background color */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
     margin-left: 180px;
+    
     
 
 }
@@ -463,6 +476,7 @@ margin: -15px 0 15px;
     line-height: 1.6;
     margin-top: 30px;
     margin-bottom: 15px;
+    width: 110%;
 
 }
 .tral button {
