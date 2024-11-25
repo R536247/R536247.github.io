@@ -21,7 +21,7 @@ body{
     display: inline-block;
     margin: 10px 20px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: sans-serif;
 }
 .menucontainer ul li a{
@@ -50,6 +50,7 @@ margin-left: 0px;
 margin-top: 40px;
 color: black;
 text-decoration: none;
+font-size: 1.8rem;
 }
 .menucontainer h2:hover{
     transition: 0,5s;
@@ -58,8 +59,8 @@ text-decoration: none;
 
 }
 .menucontainer img{
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     padding: 20px;
     border-radius: 40px;
     padding-left: 50px;
