@@ -67,6 +67,7 @@ text-decoration: none;
 .innhold h3{
     font-size: 70px;
     text-align: center;
+    margin-top: -10px;
 }
 .innhold span{
     color: rgb(181, 139, 212);
@@ -75,7 +76,8 @@ text-decoration: none;
 font-size: 22px;
 text-align: center;
 color: gray;
-margin-top: -40px;
+margin-top: 20px;
+
 }
 .innhold h4 span{
     color: rgb(181, 139, 212);
@@ -87,17 +89,27 @@ margin-top: -40px;
     
 }
 .innhold pre{
-    font-size:20px;
+    font-size:21px;
     text-align: left;
     margin-top: -500px;
     font-style: italic;
     font-family: sans-serif;
     padding-left: 30px;
+    padding-right: 30px;
 
 }
+.innhold {
+    margin: 0 auto; /* Center content horizontally */
+    padding: 60px; /* Add spacing inside the element */
+    max-width: 100%; /* Limit the width of the content */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
 .about h3{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 15px;
 
 }
 
@@ -111,7 +123,7 @@ margin-top: -40px;
 text-align: center;
 font-size: 22px;
 color: black;
-padding: 20px 20px;
+padding: 30px;
 font-family: sans-serif;
 
 }
