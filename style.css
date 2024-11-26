@@ -91,13 +91,13 @@ margin-top: 20px;
     
 }
 .innhold pre{
-    font-size:21px;
+    font-size:20px;
     text-align: left;
     margin-top: -500px;
     font-style: italic;
     font-family: sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 .innhold {
